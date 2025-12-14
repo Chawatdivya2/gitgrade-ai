@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitGrade AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <h1>GitGrade AI</h1>
+        <p class="tagline">
+            AI-based evaluation of GitHub repositories
+        </p>
+
+        <div class="input-area">
+            <input
+                id="repoUrl"
+                type="text"
+                placeholder="Enter GitHub repository URL"
+            />
+            <button onclick="analyzeRepo()">Analyze</button>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
